@@ -50,6 +50,6 @@ const date = datetime.format("D MMM, YYYY"); // e.g., '22 Mar, 2025'
   }
   <time
     class:list={["text-sm", { "sm:text-base": size === "lg" }]}
-    datetime={datetime.toISOString()}>{new Date(date).getFullYear()}年{new Date(date).getMonth() + 1}月{new Date(datetime).getDate()}日</time
+    datetime={datetime.toISOString()}>{new Date(date).getFullYear()}年{new Date(date).getMonth() + 1}月{new Date(date).getDate()}日</time
   >
 </div>
