@@ -2,14 +2,14 @@
 author: JM
 pubDatetime: 2025-06-25T20:40:08Z
 modDatetime: 2025-06-25T18:59:05Z
-title: 数量重于质量
+title: Quantity over quality
 featured: false
 draft: false
 tags:
   - docs
   - FAQ
 canonicalURL: https://www.jeetmehta.com/posts/quantity-over-quality
-description: 数量重于质量,通往精通的最快途径并不是完美。
+description: Quantity over quality,The fastest path to mastery isn’t perfection.
 ---
 
 ## 你如何才能真正在某件事上做得更好？  
