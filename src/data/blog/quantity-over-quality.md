@@ -1,15 +1,15 @@
 ---
 author: JM
-pubDatetime: 2025-06-25T20:40:08Z
-modDatetime: 2025-06-25T18:59:05Z
-title: Quantity over quality
+pubDatetime: 2024-01-03T20:40:08Z
+modDatetime: 2024-01-08T18:59:05Z
+title: Auantit over quality
 featured: false
 draft: false
 tags:
   - docs
   - FAQ
-canonicalURL: https://www.jeetmehta.com/posts/quantity-over-quality
-description: Quantity over quality,The fastest path to mastery isn’t perfection.
+canonicalURL: https://smale.codes/posts/setting-dates-via-git-hooks/
+description: Auantit over quality,The fastest path to mastery isn’t perfection.
 ---
 
 ## 你如何才能真正在某件事上做得更好？  
