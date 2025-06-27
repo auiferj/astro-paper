@@ -108,4 +108,4 @@ MrBeast是世界上最火爆的 YouTuber。以下是他给那些有志于成为 
 - 在事情完成之前不要评判它。  
 - **继续运送。**  
 
-[原文](https://ouo.io/QMmDLux)
+[查看原文](https://ouo.io/QMmDLux)
