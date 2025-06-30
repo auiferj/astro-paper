@@ -1,8 +1,8 @@
 export const SITE = {
-  website: "https://proper-pegasi.netlify.app/", // replace this with your deployed domain
-  author: "Sat Naing",
-  profile: "https://satnaing.dev/",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
+  website: "https://blue-nebula.netlify.app", // replace this with your deployed domain
+  author: "ximo",
+  profile: "https://blue-nebula.netlify.app",
+  desc: "记录生活点滴，分享日常感悟，为你寻找和提供平凡中的光亮与心灵补给.",
   title: "橙光补给站",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
@@ -14,7 +14,7 @@ export const SITE = {
   editPost: {
     enabled: true,
     text: "Edit page",
-    url: "https://github.com/satnaing/astro-paper/edit/main/",
+    url: "https://blue-nebula.netlify.app",
   },
   dynamicOgImage: true,
   dir: "ltr", // "rtl" | "auto"

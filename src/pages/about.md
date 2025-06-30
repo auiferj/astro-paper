@@ -1,37 +1,26 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "About"
+title: "关于"
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+
+嗨，你好！
+欢迎来到[橙光补给站](https://blue-nebula.netlify.app/)。我是 [ximo]，这个小小空间的主理人。你可能会好奇，为什么叫“橙光补给站”？对我来说，生活中的每一点光亮，无论是微小的发现、偶然的感悟，还是那些需要被记住的瞬间，都像橙色的暖光一样，温暖而富有力量。而我，希望这里能成为一个收集、整理并分享这些“橙光”的地方，也期待它能为每一个来到这里的朋友，提供一些心灵的补给。
 
 ![Astro Paper](public/astropaper-og.jpg)
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+我是一个后端开发者。在代码的世界里敲打着灵感的同时，我深知生活远不止眼前的苟且，还有诗和远方，以及无数值得被记录和分享的“小确幸”。
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+## 探索“橙光”世界
 
-## Features
+这个博客，就是我用来记录这些“小确幸”的载体。在这里，你可能会看到：:
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
+- [灵感补给]:比如我关于编程学习的心得体会 / 个人成长路上的思考 / 读书观影后的感悟 / 美食制作的探索和分享
+- [生活碎片]:还有我对生活方式的尝试 / 旅行中的见闻 / 育儿路上的点滴的记录
+- [心之所向]:甚至是一些脑洞大开的随笔 / 纯粹的情绪表达 / 对某个社会现象的观察
 
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
+## 我们的橙光连接
 
-and so much more.
+我希望这些文字和分享，能引起你的共鸣，或者为你带来一丝启发，一点慰藉。我的目标不是要成为专家，而是想成为一个真诚的记录者和分享者。如果我的某个故事、某个想法，能让你会心一笑，或者让你感到不再孤单，那便是这个“橙光补给站”最大的意义。
 
-## Show your support
-
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
-
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
-
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
-
-Kyay zuu! 🙏🏼
+感谢你来到这里，与我一起感受生活中的“橙光”。期待我们能在这里共同成长。 🙏🏼
