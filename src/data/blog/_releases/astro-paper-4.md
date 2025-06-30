@@ -68,7 +68,7 @@ You can add a `modDatetime` to your blog post if you've made modifications. Now,
 
 Enhance user navigation on your blog detail post with the newly implemented back-to-top button.
 
-![Back to top button in AstroPaper](https://github.com/satnaing/astro-paper/assets/53733092/79854957-7877-4f19-936e-ad994b772074)
+![回到顶部 button in AstroPaper](https://github.com/satnaing/astro-paper/assets/53733092/79854957-7877-4f19-936e-ad994b772074)
 
 ### Add Pagination in Tag Posts [#201](https://github.com/satnaing/astro-paper/pull/201)
 
