@@ -13,7 +13,7 @@ description:
   theme.
 ---
 
-以下是在 AstroPaper 博客主题中创建新文章的一些规则/建议、技巧和窍门。
+以下是在AstroPaper博客主题中创建新文章的一些规则/建议、技巧和窍门。
 
 <figure>
   <img
@@ -125,13 +125,13 @@ canonicalURL: https://example.org/my-article-was-already-posted-here
 ---
 ```
 
-## Adding table of contents
+## 添加文章目录
 
-By default, a post (article) does not include any table of contents (toc). To include toc, you have to specify it in a specific way.
+默认情况下，文章（Post）不包含任何目录。如需添加目录，你必须通过一种特定的方式来实现。
 
-Write `Table of contents` in h2 format (## in markdown) and place it where you want it to be appeared on the post.
+你需要在你希望显示目录的文章位置，用H2格式（Markdown中的##）写下“Table of contents”。
 
-For instance, if you want to place your table of contents just under the intro paragraph (like I usually do), you can do that in the following way.
+例如，如果你想将目录放置在引言段落下方（就像我通常做的那样），你可以通过以下方式实现：
 
 <!-- prettier-ignore-start -->
 ```md
@@ -139,7 +139,7 @@ For instance, if you want to place your table of contents just under the intro p
 # frontmatter
 ---
 
-Here are some recommendations, tips & ticks for creating new posts in AstroPaper blog theme.
+以下是在AstroPaper博客主题中创建新文章的一些规则/建议、技巧和窍门。
 
 <!-- [!code ++] -->
 ## Table of contents
@@ -148,15 +148,16 @@ Here are some recommendations, tips & ticks for creating new posts in AstroPaper
 ```
 <!-- prettier-ignore-end -->
 
-## Headings
+## 标题
 
-There's one thing to note about headings. The AstroPaper blog posts use title (title in the frontmatter) as the main heading of the post. Therefore, the rest of the heading in the post should be using h2 \~ h6.
+关于标题（Headings），有一点需要注意。AstroPaper博客文章会把你在Frontmatter中设置的标题（title）作为文章的主标题。
+因此，文章内部的其他所有标题都应该使用H2到H6的层级。
 
-This rule is not mandatory, but highly recommended for visual, accessibility and SEO purposes.
+这条规则并非强制性的，但为了视觉效果、无障碍访问和搜索引擎优化（SEO），强烈建议你这样做。
 
-## Syntax Highlighting
+## 语法高亮
 
-AstroPaper uses [Shiki](https://shiki.style/) as the default syntax highlighting. Starting from AstroPaper v5.4, [@shikijs/transformers](https://shiki.style/packages/transformers) is used to enhance better fenced code blocks. If you don't want to use it, you can simply remove it like this
+AstroPaper 主题默认使用 Shiki 作为语法高亮工具。从 AstroPaper v5.4 版本开始，主题引入了 @shikijs/transformers 来增强代码块（fenced code blocks）的显示效果。如果你不想使用这个增强功能，可以按照以下方式将其移除。
 
 ```bash
 pnpm remove @shikijs/transformers
@@ -193,7 +194,7 @@ export default defineConfig({
 }
 ```
 
-## Storing Images for Blog Content
+## 博客图片管理
 
 Here are two methods for storing images and displaying them inside a markdown file.
 
