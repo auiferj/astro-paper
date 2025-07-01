@@ -2,9 +2,10 @@
 author: Simon Smale
 pubDatetime: 2024-01-03T20:40:08Z
 modDatetime: 2024-01-08T18:59:05Z
-title: How to use Git Hooks to set Created and Modified Dates
-featured: false
-draft: true
+title: 如何使用Git Hooks设置创建日期和修改日期
+slug: 如何使用Git-Hooks设置创建日期和修改日期
+featured: true
+draft: false
 tags:
   - 文档
   - FAQ
