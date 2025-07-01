@@ -1,10 +1,10 @@
 ---
-title: How Do I Develop My Terminal Portfolio Website with React
+title: 如何使用React开发我的终端（命令行）风格的个人作品集网站
 author: Sat Naing
 pubDatetime: 2022-06-09T03:42:51Z
-slug: how-do-i-develop-my-terminal-portfolio-website-with-react
+slug: 如何使用React开发我的终端（命令行）风格的个人作品集网站
 featured: false
-draft: true
+draft: false
 tags:
   - JavaScript
   - ReactJS

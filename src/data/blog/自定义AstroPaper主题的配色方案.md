@@ -2,7 +2,7 @@
 author: Sat Naing
 pubDatetime: 2022-09-25T15:20:35Z
 modDatetime: 2025-06-13T16:46:34.155Z
-title: Customizing AstroPaper theme color schemes
+title: 自定义AstroPaper主题的配色方案
 featured: false
 draft: true
 tags:

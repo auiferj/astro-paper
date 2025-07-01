@@ -2,8 +2,8 @@
 author: FjellOverflow
 pubDatetime: 2024-07-25T11:11:53Z
 modDatetime: 2025-03-12T12:28:53Z
-title: How to integrate Giscus comments into AstroPaper
-slug: how-to-integrate-giscus-comments
+title: 如何将Giscus评论系统集成到AstroPaper中
+slug: 如何将Giscus评论系统集成到AstroPaper中
 featured: false
 draft: true
 tags:
