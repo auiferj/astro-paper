@@ -8,7 +8,7 @@ featured: true
 draft: true
 tags:
   - configuration
-  - docs
+  - 文档
 description: How you can make AstroPaper theme absolutely yours.
 ---
 

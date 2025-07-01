@@ -7,7 +7,7 @@ slug: dynamic-og-image-generation-in-astropaper-blog-posts
 featured: false
 draft: true
 tags:
-  - docs
+  - 文档
   - release
 description: New feature in AstroPaper v1.4.0, introducing dynamic OG image generation for blog posts.
 ---

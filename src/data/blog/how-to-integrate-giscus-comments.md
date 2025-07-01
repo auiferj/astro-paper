@@ -9,7 +9,7 @@ draft: true
 tags:
   - astro
   - blog
-  - docs
+  - 文档
 description: Comment function on a static blog hosted on GitHub Pages with Giscus.
 ---
 

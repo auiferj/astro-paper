@@ -7,7 +7,7 @@ featured: false
 draft: true
 tags:
   - color-schemes
-  - docs
+  - 文档
 description:
   How you can enable/disable light & dark mode; and customize color schemes
   of AstroPaper theme.
