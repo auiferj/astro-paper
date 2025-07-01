@@ -102,9 +102,9 @@ export const blogSchema = z.object({
 });
 ```
 
-### 示例 Frontmatter
+### 示例Frontmatter
 
-以下是文章的示例 Frontmatter。
+以下是文章的示例Frontmatter。
 
 ```yaml file="src/data/blog/sample-post.md"
 ---
@@ -196,61 +196,64 @@ export default defineConfig({
 
 ## 博客图片管理
 
-Here are two methods for storing images and displaying them inside a markdown file.
+以下是两种在Markdown文件中存储和显示图片的方法。
 
-> Note! If it's a requirement to style optimized images in markdown you should [use MDX](https://docs.astro.build/en/guides/images/#images-in-mdx-files).
+> 请注意！如果你的需求是在Markdown中为优化后的图片设置样式，你应该使用[MDX](https://docs.astro.build/en/guides/images/#images-in-mdx-files).
 
-### Inside `src/assets/` directory (recommended)
+### 在src/assets/目录下（推荐）
 
-You can store images inside `src/assets/` directory. These images will be automatically optimized by Astro through [Image Service API](https://docs.astro.build/en/reference/image-service-reference/).
+你可以将图片存储在src/assets/目录下。这些图片将通过[Image Service API](https://docs.astro.build/en/reference/image-service-reference/)由Astro自动进行优化。
 
-You can use relative path or alias path (`@/assets/`) to serve these images.
+你可以使用相对路径或别名路径(`@/assets/`)来引用这些图片。
 
-Example: Suppose you want to display `example.jpg` whose path is `/src/assets/images/example.jpg`.
+示例： 假设你想要显示一张名为`example.jpg`的图片，它的路径是`/src/assets/images/example.jpg`。
 
 ```md
 ![something](@/assets/images/example.jpg)
 
-<!-- OR -->
+<!-- 或 -->
 
 ![something](../../assets/images/example.jpg)
 
-<!-- Using img tag or Image component won't work ❌ -->
+<!-- 使用 <img> 标签或 Image 组件将不起作用。 ❌ -->
 <img src="@/assets/images/example.jpg" alt="something">
 <!-- ^^ This is wrong -->
 ```
 
-> Technically, you can store images inside any directory under `src`. In here, `src/assets` is just a recommendation.
+> 从技术上讲，你可以把图片存储在`src`目录下的任何子目录中。在这里，`src/assets`只是一个推荐的存放位置。
 
-### Inside `public` directory
+### 在`public`目录下
 
-You can store images inside the `public` directory. Keep in mind that images stored in the `public` directory remain untouched by Astro, meaning they will be unoptimized and you need to handle image optimization by yourself.
+你可以将图片存储在`public`目录下。请记住，存储在`public`目录下的图片不会被 Astro 处理，这意味着它们不会被优化，你需要自行处理图片优化。
 
-For these images, you should use an absolute path; and these images can be displayed using [markdown annotation](https://www.markdownguide.org/basic-syntax/#images-1) or [HTML img tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img).
+对于这些图片，你应该使用绝对路径；并且这些图片可以使用[Markdown标注](https://www.markdownguide.org/basic-syntax/#images-1) 或 [HTML`<img>`标签](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)来显示。
 
-Example: Assume `example.jpg` is located at `/public/assets/images/example.jpg`.
+示例： 假设`example.jpg`图片位于 `/public/assets/images/example.jpg`。
 
 ```md
 ![something](/assets/images/example.jpg)
 
-<!-- OR -->
+<!-- 或 -->
 
 <img src="/assets/images/example.jpg" alt="something">
 ```
 
-## Bonus
+## 额外的技巧
 
-### Image compression
+### 图像压缩
 
-When you put images in the blog post (especially for images under `public` directory), it is recommended that the image is compressed. This will affect the overall performance of the website.
+在博客文章中放置图片时（特别是存放在`public`目录下的图片），我们强烈建议对图片进行压缩。这会直接影响你网站的整体性能。
 
-My recommendation for image compression sites.
+推荐的图片压缩网站.
 
 - [TinyPng](https://tinypng.com/)
 - [TinyJPG](https://tinyjpg.com/)
+- [Compressor.io](https://compressor.io/)
+- [Squoosh](https://squoosh.app/)
+- [Optimizilla](https://imagecompressor.com/)
 
-### OG Image
+### OG图像
 
-The default OG image will be placed if a post does not specify the OG image. Though not required, OG image related to the post should be specify in the frontmatter. The recommended size for OG image is **_1200 X 640_** px.
+如果文章没有指定OG图像，系统将使用默认的OG图像。虽然不是必需的，但建议在Frontmatter中为文章指定相关的OG图像。OG图像的推荐尺寸是**_1200 X 640_**像素。
 
-> Since AstroPaper v1.4.0, OG images will be generated automatically if not specified. Check out [the announcement](https://astro-paper.pages.dev/posts/dynamic-og-image-generation-in-astropaper-blog-posts/).
+> 自AstroPaper v1.4.0版本起，如果未指定OG图像，系统将自动生成。请查看此[公告](https://astro-paper.pages.dev/posts/dynamic-og-image-generation-in-astropaper-blog-posts/)。
