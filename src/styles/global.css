@@ -58,9 +58,12 @@ html[data-theme="dark"] {
   @apply max-w-3xl;
 }
 
+#menu-items > li > a:hover {
+  @apply underline decoration-wavy decoration-2 underline-offset-4 decoration-[#22c55e];
+}
+
 .active-nav {
-  /* @apply underline decoration-wavy decoration-2 underline-offset-4; */
-  @apply underline decoration-wavy decoration-2 underline-offset-4 decoration-red-500
+  @apply underline decoration-wavy decoration-2 underline-offset-4 decoration-red-500;
 }
 
 /* Source: https://piccalil.li/blog/a-more-modern-css-reset/ */
