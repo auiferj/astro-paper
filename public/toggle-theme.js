@@ -57,7 +57,20 @@ window.onload = () => {
     // now this script can find and listen for clicks on the control
     document.querySelector("#theme-btn")?.addEventListener("click", () => {
       themeValue = themeValue === "light" ? "dark" : "light";
-      setPreference();
+
+      if (document.startViewTransition) {
+        document.documentElement.style.setProperty('view-transition-name', 'animation-theme-toggle');
+        document.documentElement.setAttribute('data-theme-changing', '');
+
+        const transition = document.startViewTransition(setPreference);
+
+        transition.finished.then(() => {
+          document.documentElement.style.removeProperty('view-transition-name');
+          document.documentElement.removeAttribute('data-theme-changing');
+        });
+      } else {
+        setPreference();
+      }
     });
   }
 
