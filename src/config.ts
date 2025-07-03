@@ -2,8 +2,8 @@ export const SITE = {
   website: "https://blue-nebula.netlify.app", // replace this with your deployed domain
   author: "ximo",
   profile: "https://blue-nebula.netlify.app",
-  desc: "记录生活点滴，分享日常感悟，为你寻找和提供平凡中的光亮与心灵补给.",
-  title: "橙光补给站",
+  desc: "一些文字，一点生活，一种持续的记录。像花在缝隙中悄悄绽放。.",
+  title: "湿地之语",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
