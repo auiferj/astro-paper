@@ -5,7 +5,7 @@ modDatetime: 2025-03-12T13:39:20.763Z
 title: AstroPaper博客文章中的动态OG图像生成
 slug: AstroPaper博客文章中的动态OG图像生成
 featured: false
-draft: true
+draft: false
 tags:
   - 文档
   - release

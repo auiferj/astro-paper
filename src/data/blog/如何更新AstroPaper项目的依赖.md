@@ -4,7 +4,7 @@ author: Sat Naing
 pubDatetime: 2023-07-20T15:33:05.569Z
 slug: 如何更新AstroPaper项目的依赖
 featured: false
-draft: true
+draft: false
 ogImage: ../../assets/images/forrest-gump-quote.png
 tags:
   - FAQ

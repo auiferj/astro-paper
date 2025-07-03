@@ -5,7 +5,7 @@ modDatetime: 2025-06-13T16:52:45.934Z
 title: 在AstroPaper主题中添加新文章
 slug: 在AstroPaper主题中添加新文章
 featured: false
-draft: true
+draft: false
 tags:
   - 文档
 description:

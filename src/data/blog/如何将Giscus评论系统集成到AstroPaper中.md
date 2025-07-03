@@ -5,7 +5,7 @@ modDatetime: 2025-03-12T12:28:53Z
 title: 如何将Giscus评论系统集成到AstroPaper中
 slug: 如何将Giscus评论系统集成到AstroPaper中
 featured: false
-draft: true
+draft: false
 tags:
   - astro
   - blog

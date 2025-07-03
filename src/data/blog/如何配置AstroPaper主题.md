@@ -5,7 +5,7 @@ modDatetime: 2025-03-20T03:15:57.792Z
 title: 如何配置AstroPaper主题
 slug: 如何配置AstroPaper主题
 featured: true
-draft: true
+draft: false
 tags:
   - configuration
   - 文档
