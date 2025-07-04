@@ -3,7 +3,7 @@ export const SITE = {
   author: "ximo",
   profile: "https://blue-nebula.netlify.app",
   desc: "一些文字，一点生活，一种持续的记录。像花在缝隙中悄悄绽放。.",
-  title: "湿地之语",
+  title: "写字的地方",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
