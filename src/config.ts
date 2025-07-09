@@ -2,8 +2,8 @@ export const SITE = {
   website: "https://blue-nebula.netlify.app", // replace this with your deployed domain
   author: "ximo",
   profile: "https://blue-nebula.netlify.app",
-  desc: "是夏天呀，也是我心里的一点亮光。",
-  title: "是夏天啊！",
+  desc: "是夏天诶，也是我心里的一点亮光。",
+  title: "是夏天诶",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
