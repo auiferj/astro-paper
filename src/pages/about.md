@@ -7,7 +7,7 @@ title: "关于"
 ![Astro Paper](public/astropaper-og.webp)
 ---
 
-### 关于「是夏天」
+### 关于「是夏天诶」
 
 不是所有话都要沉重地讲，有些时候，只需要一句轻声的感叹。
 
