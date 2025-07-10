@@ -28,7 +28,7 @@
     }
 
     a {
-      @apply break-words text-[#0969da] no-underline dark:text-blue-400 hover:text-accent hover:underline focus-visible:no-underline;
+      @apply break-words text-[#0a64cc] no-underline dark:text-blue-400 hover:text-accent hover:underline focus-visible:no-underline font-bold italic;
     }
 
     ul {
