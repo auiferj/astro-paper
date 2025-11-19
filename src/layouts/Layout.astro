@@ -4,6 +4,7 @@ import { PUBLIC_GOOGLE_SITE_VERIFICATION } from "astro:env/client";
 import { SITE } from "@/config";
 import "@/styles/global.css";
 import "@/styles/transition.css";
+import GravityBackground from "@/components/GravityBackground.astro";
 
 export interface Props {
   title?: string;
@@ -133,9 +134,8 @@ const structuredData = {
 
     <script is:inline src="/toggle-theme.js"></script>
   </head>
-  <body>
-    <slot />
-  </body>
+  <GravityBackground />
+  <slot />
 </html>
 
 <style>
