@@ -1,23 +1,64 @@
 @import "tailwindcss";
 @import "./typography.css";
 
+/* Google Sans Code - Regular */
+@font-face {
+  font-family: 'Google Sans Code';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/googlesanscode/v14/pxiSyogzv91QhV44Z_GQBHsGf5PuckJMXr41HfVaiXFhgjF58LQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Google Sans - Regular */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/googlesans/v65/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjIUvQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Google Sans - Medium */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/googlesans/v65/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjIUvQ.woff2) format('woff2');
+  /* Note: URL might be same for variable fonts or specific subsets, using the one found */
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Google Sans - Bold */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/googlesans/v65/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjIUvQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
 :root,
 html[data-theme="light"] {
-  --background: #fdfdfd;
-  --foreground: #282728;
-  --accent: #006cac;
-  --muted: #e6e6e6;
-  --border: #ece9e9;
+  --background: #FFFFFF;
+  --foreground: #121317;
+  --accent: #1a73e8;
+  --muted: #F0F1F5;
+  --border: #E1E6EC;
 }
 
 html[data-theme="dark"] {
-  --background: oklch(22% 0.005 298);
-  --foreground: #eaedf3;
-  --accent: #ff6b01;
-  --muted: #343f60bf;
-  --border: #ab4b08;
+  --background: #121317;
+  --foreground: #FFFFFF;
+  --accent: #1a73e8;
+  --muted: #212226;
+  --border: #2F3034;
 }
 
 @theme inline {
@@ -26,6 +67,9 @@ html[data-theme="dark"] {
   --color-accent: var(--accent);
   --color-muted: var(--muted);
   --color-border: var(--border);
+
+  --font-mono: "Google Sans Code", monospace;
+  --font-sans: "Google Sans", sans-serif;
 }
 
 @layer base {
@@ -34,23 +78,33 @@ html[data-theme="dark"] {
     scrollbar-width: auto;
     scrollbar-color: var(--color-muted) transparent;
   }
+
   html {
     @apply overflow-y-scroll scroll-smooth;
   }
+
   body {
-    @apply flex min-h-svh flex-col bg-background font-mono text-foreground selection:bg-accent/75 selection:text-background;
+    @apply flex min-h-svh flex-col bg-background font-sans text-foreground selection:bg-accent/75 selection:text-background;
   }
+
   a,
   button {
     @apply outline-offset-1 outline-accent focus-visible:no-underline focus-visible:outline-2 focus-visible:outline-dashed;
   }
+
   button:not(:disabled),
   [role="button"]:not(:disabled) {
     cursor: pointer;
   }
+
   section,
   footer {
     @apply mx-auto max-w-app px-4;
+  }
+
+  code,
+  pre {
+    font-family: var(--font-mono);
   }
 }
 
@@ -58,12 +112,12 @@ html[data-theme="dark"] {
   @apply max-w-3xl;
 }
 
-#menu-items > li > a:hover {
-  @apply underline decoration-wavy decoration-2 underline-offset-4 decoration-[#5bbb7e];
+#menu-items>li>a:hover {
+  @apply underline decoration-wavy decoration-2 underline-offset-4 decoration-accent;
 }
 
 .active-nav {
-  @apply underline decoration-wavy decoration-2 underline-offset-4 decoration-red-500;
+  @apply underline decoration-wavy decoration-2 underline-offset-4 decoration-accent;
 }
 
 /* Source: https://piccalil.li/blog/a-more-modern-css-reset/ */
