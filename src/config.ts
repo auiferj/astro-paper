@@ -3,7 +3,7 @@ export const SITE = {
   author: "ximo",
   profile: "https://blue-nebula.netlify.app",
   desc: "是夏天诶，也是我心里的一点亮光。",
-  title: "是夏天诶",
+  title: "踏踏实实的司空琪",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
